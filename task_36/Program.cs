@@ -36,13 +36,13 @@
                 int Sum = 0;
                 while (i < count)
                 {
-                    if (coll[i] % 2 != 0)
+                    if (i % 2 != 0)
                     {
                         Sum = Sum + coll[i];
                     }
                     i++;
                 }
-                Console.Write("Сумма нечетных чисел в массиве: " + Sum);
+                Console.Write("Сумма элементов массива стоящих на нечётных позициях: " + Sum);
             }
 
 
